@@ -1,0 +1,145 @@
+body {
+  color: #40514E;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #11999E;
+  margin: 50px 0 auto;
+  /* circle shorthand*/
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  /* 40px is static to browser settings thus 40/16 = 2.5 rem is dynamic */
+  /* rem=> root em(doesn't depend on parent font(body) settings); font-size 16px (static) = 100%(dynamic to browser font settings) = 1em (dynamic)(em = width of one letter M) */
+}
+
+h2 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #DFDFDE 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 75px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 15px;
+  text-decoration: none
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/*
+.intro {
+  text-decoration: underline;
+}
+also read about margin: top-right-down-left; in mdn when width: 10% of h1
+*/
+.about-me {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.hand-sign {
+  height: 40px;
+  width: 40px;
+}
+
+.mountain {
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-container {
+  background-color: #CCF2F4;
+}
+
+.top-cloud {
+  padding-top: 50px;
+  position: relative;
+  left: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.contact-txt {
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  padding: 20px 0;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  font-weight: 800;
+  margin: 60px auto 0;
+  padding: 50px 0 20px;
+}
+
+.dsa-img {
+  width: 20%;
+  float: left;
+  padding-right: 30px;
+}
+
+.dev-img {
+  width: 20%;
+  /*25% of its parent i.e skill row*/
+  float: right;
+  padding-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
